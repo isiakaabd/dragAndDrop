@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.empty{
+    height: 120px;
+    width: 120px;
+    background: red;
+    border: 2px solid white;
+}
+.fill{
+    background: yellow;
+    z-index: 2;
+}
